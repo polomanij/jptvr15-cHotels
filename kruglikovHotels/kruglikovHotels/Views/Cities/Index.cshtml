@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Hotels</h2>
+
+@foreach (var city in ViewBag.Cities)
+{
+    <h3>@city.title</h3>
+    <div>
+        @foreach(var hotel in city.hotels)
+        {
+            <div style="width: 300px; float: left; margin-right: 10px">
+                <h4>@hotel.name</h4>
+                <img class="thumbnail" src="@hotel.photo">
+
+                @Html.ActionLink("Детали", "Details", new { id = hotel.id})
+            </div>
+        }
+        <div style="clear: both;"></div>
+    </div>
+}

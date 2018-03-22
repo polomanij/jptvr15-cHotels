@@ -21,21 +21,21 @@ namespace kruglikovHotels.Models
                         id = 1,
                         name = "Radisson Blu Sky Hotel",
                         services = "Free Wifi Restaurant",
-                        photo = "\\Content\\Radisson.png",
+                        photo = "\\Content\\Radisson.jpg",
                         adress = "Ravala pst, 3"
                     },
                     new Hotel {
                         id = 2,
                         name = "Hotel Palace",
                         services = "Breakfast Included Free Internet",
-                        photo = "\\Content\\Palace.png",
+                        photo = "\\Content\\Palace.jpg",
                         adress = "Vabaduse Valjak, 3"
                     },
                     new Hotel {
                         id = 3,
                         name = "Nordic Hotel Forum",
                         services = "Reserve now, pay later Breakfast Included",
-                        photo = "\\Content\\Forum.png",
+                        photo = "\\Content\\Forum.jpg",
                         adress = "Viru Valjak, 3"
                     },
                 }
@@ -51,14 +51,14 @@ namespace kruglikovHotels.Models
                         id = 4,
                         name = "Art Hotel Pallas",
                         services = "Air conditioning Free Wifi Breakfast ",
-                        photo = "\\Content\\PallasTarty.png",
+                        photo = "\\Content\\PallasTarty.jpg",
                         adress ="Riia, 4"
                     },
                     new Hotel {
                         id = 5,
                         name = "Hotel Tartu ",
                         services = "Free Wifi Breakfast included",
-                        photo = "\\Content\\Tarty.png",
+                        photo = "\\Content\\Tarty.jpg",
                         adress = "Soola, 3"
                     }
                 }
@@ -74,7 +74,7 @@ namespace kruglikovHotels.Models
                         id = 6,
                         name = "Toila Spa Hotel",
                         services = "Спа иоздоровительный центр Бассейн Бесплатная парковка ",
-                        photo = "\\Content\\Toila.png",
+                        photo = "\\Content\\Toila.jpg",
                         adress = "Ranna, 12"
                     }
                 }
